@@ -1,14 +1,24 @@
-# Français
-
 # Zorya Sisters  
+## Projet réalisé en trois semaines dans la cadre de mes études au [Gaming Campus](https://gamingcampus.fr) avec un template fournie.
+### Projet réalisé en C++ avec SMFL.
+### Acuellement non continué.
 
-Zorya Sisters est un platformer/puzzle 2D développé avec SFML. Incarnez les soeurs Zorya, des poupées russes souhaitant quitter la maison de leur propriétaire à tout prix. En utilisant leurs différents pouvoirs; surmontez les obstacles et les énigmes qui se dressent devant vous !
+Zorya Sisters est un platformer/puzzle 2D développé avec SFML. 
+
+Incarnez les soeurs Zorya, des poupées russes souhaitant quitter la maison de leur propriétaire à tout prix. En utilisant leurs différents pouvoirs; surmontez les obstacles et les énigmes qui se dressent devant vous !
+
 Ce jeu est un de nos projet d'études, nous l'avons développé en trois semaines. Si nous avions prévu de le sortir sur Steam ou Itch.io, le plan aurait été de créer plusieurs mondes à la manière des jeux Mario : chaque pièce de la maison aurait représenté un monde contenant plusieurs niveaux à l'intérieur. Mais dû à un manque de temps, nous avons décidé de créé un seul niveau permettant d'introduire les différentes mécaniques.  
 
+Le but du jeu est d'arriver à la sortie du niveau (dans celui ci, le trou de souris) grâce à trois poupées. Chacune des poupée a un pouvoir propre à elle que le joueur peut choisir au début et à chaque retour à un checkpoint. Un checkpoint est créé à chaque changement de poupée. Mais une fois sorti d'une poupée, la nouvelle ne peut pas rentrer dans l'ancienne. Alors il faut bien choisir ses actions.
+Il existe 5 pouvoirs pour le moment :
+- La force permettant de pousser les objets.
+- Le dash permettant de foncer dans une direction.
+- Le Double-Saut
+- L'inversion de gravité permettant d'inverser la gravité ***une seule fois***.
+- L'invicibilité
 
-# A faire pour lancer le jeu
 
-Etape pour pouvoir lancer le programme sur Visual Studio:
+### Lancer le jeu avec la solution:
 
 - Aller dans l'explorateur de solution et faire un clic droit sur Game.
 - Cliquer sur "Propriétés", en haut de la fenêtre aller dans "Configuration" et "Plateforme" et indiquer "Toutes les plateformes".
@@ -22,9 +32,47 @@ Etape pour pouvoir lancer le programme sur Visual Studio:
 Vous pouvez ensuite relancer le programme afin de tester le jeu !
 
 
-# Crédits :  
+### Bug connus :
+- Incompréhension sur ce qui a des collision ou non.
+- Changer de poupée sur le lit juste en dessous de la fenêtre à gauche de l'ours permet de passer au dessus de la fenêtre.
+- Problèmes de sprites qui disparaissent.
+- Problème avec la force qui pousse quand on est au dessus des éléments, créant ainsi des problèmes comme avec le livre qui bloque toute progression si on ne peut plus sauter par dessus.
+- Parfois, l'inversion de gravité permet de passer directement au dessus des premiers livres.
+- Le sprite de la lampe ne se reset pas lors d'un retour checkpoint.
+- Bouton dans l'écran de chargement disant "retour au jeu" au lieu de "Jouer"
+- Assigner plusieurs fois le même pouvoir :
+ - Lancer le jeu.
+ - Retour checkpoint.
+ - Desactiver le pouvoir de la grande poupée sans en réassigner une nouvelle.
+ - Assigner le pouvoir à une autre poupée.
+ - Lancer le jeu.
+- Si on touche le toit avec l'inversion de gravité, on reste bloqué en haut.
 
-Nous avons crée ce jeu sous le nom de notre studio fictif : **Darwin's Studio**.  
+
+### Solution prévue :
+- Pour la première poupée : 
+ - Prendre l'inversion de gravité.
+ - Monter sur l'étagère.
+ - Changer de poupée devant les livres. 
+- Pour la seconde poupée :
+ - Prendre la force.
+ - Passer de l'autre coté des livres.
+ - Pousser le livre pour qu'il tombe de l'étagère.
+ - Sauter sur le lit pour éteindre la lampe avec l'interrupteur.
+ - Descendre du lit en sautant par dessus le livre.
+ - Monter sur la chaise, le bureau, la lampe et l'étagère avec les deux livres couchés.
+ - Chaner de poupée sur les deux livres.
+- Pour la troisième poupée :
+ - Prendre le double saut.
+ - Sauter sur le tableau.
+ - Sauter au dessus de l'étagère.
+ - Arriver au trou de souris.
+
+
+
+### Crédits :  
+
+Nous avons créé ce jeu sous le nom de notre studio fictif : **Darwin's Studio**.  
 
 Melvin Guellaff - [GitHub](https://github.com/Mguellaff) - [LinkedIn](https://www.linkedin.com/in/melvin-guellaff-353628202/)  
 Yanaël Caillot - [GitHub](https://github.com/Dranemo) - [LinkedIn](https://www.linkedin.com/in/ycaillot/)  
@@ -32,40 +80,5 @@ Evan Choquet - [GitHub](https://github.com/Snip2Fou) - [LinkedIn](https://www.li
 David De Oliveira - [GitHub](https://github.com/Vindiss) - [LinkedIn](https://www.linkedin.com/in/david-de-oliveira-bb48941b0/)  
 Axel Gathelier - [GitHub](https://github.com/GolfOcean334) - [LinkedIn](https://www.linkedin.com/in/axel-gathelier-13198b252/)  
 
-Amusez-vous à y jouer ! 😄
-
-
-
-
-# English
-
-# Zorya Sisters 
-
-Zorya Sisters is a 2D platformer/puzzle developed by SFML. Play as the Zorya sisters, Russian dolls desperate to get out of their owner's house. Using their different powers, overcome the obstacles and puzzles that stand in your way !  
-This game is one of a school project of ours, we developed it in three weeks. If we had plan to release the game on Steam and Itch.io, the plan would have been to create several worlds, in the style of the Mario games: each room in the house would have represented a world with several levels inside. But due to a lack of time, we decided to create a single level showing the different mechanics.  
-
-
-# Steps to launch the game in Visual Studio:
-
-- Go to the Solution Explorer and right-click on Game.
-- Click on "Properties," at the top of the window go to "Configuration" and "Platform" and select "All platforms."
-- Click on "Debugging" and paste " $(SolutionDir) " into "Working Directory."
-- Repeat the previous 3 steps but with "SFMLEngine" in the Solution Explorer.
-
-- Install "openal32.dll".
-- Run the program once to create the "x64" folder.
-- Move "openal32.dll" into the "Debug" folder located within the "x64" directory.
-
-You can then relaunch the program to test the game!
-
-# Credits :
-
-We created this game under the name of our fictitious studio: **Darwin's Studio**.
-
-Melvin Guellaff - [GitHub](https://github.com/Mguellaff) - [LinkedIn](https://www.linkedin.com/in/melvin-guellaff-353628202/)  
-Yanaël Caillot - [GitHub](https://github.com/Dranemo) - [LinkedIn](https://www.linkedin.com/in/ycaillot/)  
-Evan Choquet - [GitHub](https://github.com/Snip2Fou) - [LinkedIn](https://www.linkedin.com/in/evan-choquet-a9031b265/)  
-David De Oliveira - [GitHub](https://github.com/Vindiss) - [LinkedIn](https://www.linkedin.com/in/david-de-oliveira-bb48941b0/)  
-Axel Gathelier - [GitHub](https://github.com/GolfOcean334) - [LinkedIn](https://www.linkedin.com/in/axel-gathelier-13198b252/)  
-
-Have fun playing it ! 😄
+Intervenant nous ayant fourni la template :
+Adrien Bourgois - [GitHub](https://github.com/AdrienBourgois) - [LinkedIn](https://www.linkedin.com/in/adrienbourgois/)
