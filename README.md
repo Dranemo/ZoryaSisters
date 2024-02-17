@@ -41,32 +41,32 @@ Vous pouvez ensuite relancer le programme afin de tester le jeu !
 - Le sprite de la lampe ne se reset pas lors d'un retour checkpoint.
 - Bouton dans l'écran de chargement disant "retour au jeu" au lieu de "Jouer"
 - Assigner plusieurs fois le même pouvoir :
- * Lancer le jeu.
- * Retour checkpoint.
- * Desactiver le pouvoir de la grande poupée sans en réassigner une nouvelle.
- * Assigner le pouvoir à une autre poupée.
- * Lancer le jeu.
+  * Lancer le jeu.
+  * Retour checkpoint.
+  * Desactiver le pouvoir de la grande poupée sans en réassigner une nouvelle.
+  * Assigner le pouvoir à une autre poupée.
+  * Lancer le jeu.
 - Si on touche le toit avec l'inversion de gravité, on reste bloqué en haut.
 
 
 ### Solution prévue :
 - Pour la première poupée : 
- * Prendre l'inversion de gravité.
- * Monter sur l'étagère.
- * Changer de poupée devant les livres. 
+  * Prendre l'inversion de gravité.
+  * Monter sur l'étagère.
+  * Changer de poupée devant les livres. 
 - Pour la seconde poupée :
- * Prendre la force.
- * Passer de l'autre coté des livres.
- * Pousser le livre pour qu'il tombe de l'étagère.
- * Sauter sur le lit pour éteindre la lampe avec l'interrupteur.
- * Descendre du lit en sautant par dessus le livre.
- * Monter sur la chaise, le bureau, la lampe et l'étagère avec les deux livres couchés.
- * Chaner de poupée sur les deux livres.
+  * Prendre la force.
+  * Passer de l'autre coté des livres.
+  * Pousser le livre pour qu'il tombe de l'étagère.
+  * Sauter sur le lit pour éteindre la lampe avec l'interrupteur.
+  * Descendre du lit en sautant par dessus le livre.
+  * Monter sur la chaise, le bureau, la lampe et l'étagère avec les deux livres couchés.
+  * Chaner de poupée sur les deux livres.
 - Pour la troisième poupée :
- * Prendre le double saut.
- * Sauter sur le tableau.
- * Sauter au dessus de l'étagère.
- * Arriver au trou de souris.
+  * Prendre le double saut.
+  * Sauter sur le tableau.
+  * Sauter au dessus de l'étagère.
+  * Arriver au trou de souris.
 
 
 
