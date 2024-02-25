@@ -1,5 +1,10 @@
 # Zorya Sisters  
 
+[Download Link]()
+
+
+
+
 ## Table of Content
 
 1. [Francais](#Francais)
@@ -12,6 +17,9 @@
    2. [Known glitches](#GlitchEn)
    3. [Planned Solution](#SolutionEn)
    4. [Credits](#CreditsEn)
+  
+
+
 
 ## Francais <a name="Francais"></a>
 
@@ -36,6 +44,7 @@ Il existe 5 pouvoirs pour le moment :
 - L'invicibilité
 
 
+
 ### Lancer le jeu avec la solution <a name="RunFr"></a>
 
 - Aller dans l'explorateur de solution et faire un clic droit sur Game.
@@ -48,6 +57,7 @@ Il existe 5 pouvoirs pour le moment :
 - Déplacer "openal32.dll" dans le dossier "Debug" qui se situe dans le dossier "x64".
 
 Vous pouvez ensuite relancer le programme afin de tester le jeu !
+
 
 
 ### Bug connus <a name="GlitchesFr"></a>
@@ -66,6 +76,7 @@ Vous pouvez ensuite relancer le programme afin de tester le jeu !
   * Assigner le pouvoir à une autre poupée.
   * Lancer le jeu.
 - Si on touche le toit avec l'inversion de gravité, on reste bloqué en haut.
+
 
 
 ### Solution prévue <a name="SolutionFr"></a>
@@ -104,6 +115,8 @@ Intervenant nous ayant fourni la template :
 Adrien Bourgois - [GitHub](https://github.com/AdrienBourgois) - [LinkedIn](https://www.linkedin.com/in/adrienbourgois/)
 
 
+
+
 ## English <a name="Anglais"></a>
 
 ***Project completed in three weeks as part of my studies at [Gaming Campus](https://gamingcampus.fr) with a provided template in November and December 2023.***  
@@ -126,6 +139,8 @@ There are currently 5 powers:
 - Gravity inversion allowing a one-time gravity inversion.
 - Invincibility.
 
+
+
 ### Run the game with the solution <a name="RunEn"></a>
 
 - In the solution explorer, right-click on Game.
@@ -138,6 +153,8 @@ There are currently 5 powers:
 - Move "openal32.dll" to the "Debug" folder inside the "x64" folder.
 
 You can then relaunch the program to test the game!
+
+
 
 ### Known Glitches <a name="GlitchEn"></a>
 
@@ -155,6 +172,8 @@ You can then relaunch the program to test the game!
   * Assign the power to another doll.
   * Launch the game.
 - If you touch the ceiling with gravity inversion, you get stuck at the top.
+
+
 
 ### Planned Solution <a name="SolutionEn"></a>
 - For the first doll:
@@ -174,6 +193,8 @@ You can then relaunch the program to test the game!
   * Jump on the board.
   * Jump over the shelf.
   * Reach the mouse hole.
+
+
 
 ### Credits <a name="CreditsEn"></a>
 
