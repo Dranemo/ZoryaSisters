@@ -7,7 +7,7 @@
    2. [Bugs connus](#GlitchesFr)
    3. [Solution prévue](#SolutionFr)
    4. [Credits](CreditsFr)
-2. [Anglais](#Anglais)
+2. [English](#Anglais)
    1. [Run with the solution](#RunEn)
    2. [Known glitches](#GlitchEn)
    3. [Planned Solution](#SolutionEn)
@@ -17,6 +17,7 @@
 
 ***Projet réalisé en trois semaines dans la cadre de mes études au [Gaming Campus](https://gamingcampus.fr) avec un template fournie.***
 Projet réalisé en **C++ avec SMFL**.  
+Francais uniquement.  
 *Acuellement non continué.*  
 
 Zorya Sisters est un platformer/puzzle 2D développé avec SFML. 
@@ -105,17 +106,18 @@ Adrien Bourgois - [GitHub](https://github.com/AdrienBourgois) - [LinkedIn](https
 
 ## English <a name="Anglais"></a>
 
-***Project completed in three weeks as part of my studies at [Gaming Campus](https://gamingcampus.fr) with a provided template.***
-Project implemented in **C++ with SFML**.
+***Project completed in three weeks as part of my studies at [Gaming Campus](https://gamingcampus.fr) with a provided template.***  
+Project implemented in **C++ with SFML**.  
+Only in french  
 *Currently not continued.*
 
 Zorya Sisters is a 2D platformer/puzzle game developed with SFML.
 
 Take on the role of the Zorya sisters, Russian dolls eager to leave their owner's house at all costs. By using their different powers, overcome obstacles and puzzles that stand in your way!
 
-This game is one of our study projects, developed in three weeks. If we had planned to release it on Steam or Itch.io, the idea was to create multiple worlds in the style of Mario games: each room in the house would represent a world containing several levels inside. But due to a lack of time, we decided to create a single level introducing the various mechanics.
+This game is one of our study projects, developed in three weeks. If we had planned to release it on Steam or Itch.io, the idea was to create multiple worlds in the style of Mario games: each room in the house would represent a world containing several levels inside. But due to a lack of time, we decided to create a single level introducing the various mechanics.  
 
-The goal of the game is to reach the level exit (in this case, the mouse hole) using three dolls. Each doll has a unique power that the player can choose at the beginning and each time they return to a checkpoint. A checkpoint is created with each doll change. However, once out of a doll, the new one cannot enter the old one. So, careful decision-making is required.
+The goal of the game is to reach the level exit (in this case, the mouse hole) using three dolls. Each doll has a unique power that the player can choose at the beginning and each time they return to a checkpoint. A checkpoint is created with each doll change. However, once out of a doll, the new one cannot enter the old one. So, careful decision-making is required.  
 
 There are currently 5 powers:
 - Strength allowing the pushing of objects.
