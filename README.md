@@ -15,7 +15,7 @@
 
 ## Francais <a name="Francais"></a>
 
-***Projet réalisé en trois semaines dans la cadre de mes études au [Gaming Campus](https://gamingcampus.fr) avec un template fournie.***
+***Projet réalisé en trois semaines dans la cadre de mes études au [Gaming Campus](https://gamingcampus.fr) avec un template fournie en Novembre et Decembre 2023.***
 Projet réalisé en **C++ avec SMFL**.  
 Francais uniquement.  
 *Acuellement non continué.*  
@@ -106,7 +106,7 @@ Adrien Bourgois - [GitHub](https://github.com/AdrienBourgois) - [LinkedIn](https
 
 ## English <a name="Anglais"></a>
 
-***Project completed in three weeks as part of my studies at [Gaming Campus](https://gamingcampus.fr) with a provided template.***  
+***Project completed in three weeks as part of my studies at [Gaming Campus](https://gamingcampus.fr) with a provided template in November and December 2023.***  
 Project implemented in **C++ with SFML**.  
 Only in french  
 *Currently not continued.*
