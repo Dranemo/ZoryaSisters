@@ -13,7 +13,7 @@
    3. [Planned Solution](#SolutionEn)
    4. [Credits](#CreditsEn)
 
-## Francais <a name="Francais=></a>
+## Francais <a name="Francais"></a>
 
 ***Projet réalisé en trois semaines dans la cadre de mes études au [Gaming Campus](https://gamingcampus.fr) avec un template fournie.***
 Projet réalisé en **C++ avec SMFL**.  
