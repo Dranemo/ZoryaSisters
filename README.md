@@ -1,6 +1,6 @@
 # Zorya Sisters  
 
-[Download Link](https://drive.google.com/file/d/1UI2BR0T3q_d0B6HyWw8UDhw8QzsdGaJ8/view?usp=sharing)
+[Download Link](https://drive.google.com/file/d/1UZAFsd5iV5RQXKPHPr_y3qWgXYUT0Pb3/view?usp=sharing)
 
 
 
