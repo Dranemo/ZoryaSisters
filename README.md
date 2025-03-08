@@ -8,15 +8,19 @@
 ## Table of Content
 
 1. [Francais](#Francais)
-   1. [Lancer avec la solution](#RunFr)
-   2. [Bugs connus](#GlitchesFr)
-   3. [Solution prévue](#SolutionFr)
-   4. [Credits](CreditsFr)
-2. [English](#Anglais)
-   1. [Run with the solution](#RunEn)
-   2. [Known glitches](#GlitchEn)
-   3. [Planned Solution](#SolutionEn)
-   4. [Credits](#CreditsEn)
+   1. [Contrôles](#ControlsFR)
+   2. [Lancer avec la solution](#RunFr)
+   3. [Bugs connus](#GlitchesFr)
+   4. [Solution prévue](#SolutionFr)
+   5. [Credits](CreditsFr)
+   6. [License](LicenseFR)
+3. [English](#Anglais)
+   1. [Controls](#ControlsEn)
+   2. [Run with the solution](#RunEn)
+   3. [Known glitches](#GlitchEn)
+   4. [Planned Solution](#SolutionEn)
+   5. [Credits](#CreditsEn)
+   6. [License](#LicenseEn)
   
 
 
@@ -42,6 +46,14 @@ Il existe 5 pouvoirs pour le moment :
 - Le Double-Saut
 - L'inversion de gravité permettant d'inverser la gravité ***une seule fois***.
 - L'invicibilité
+
+
+### Contrôles <a name="ControlsFr"></a>
+| Contrôle    | Action |
+| -------- | ------- |
+| ZQSD  | Mouvement    |
+| Clic Droit | Pouvoir     |
+| A    | Sortir de la poupée    |
 
 
 
@@ -114,6 +126,9 @@ Intervenant nous ayant fourni la template :
 
 Adrien Bourgois - [GitHub](https://github.com/AdrienBourgois) - [LinkedIn](https://www.linkedin.com/in/adrienbourgois/)
 
+### License <a name="LicenseFr"></a>
+Ce projet nous appartient. Vous avez la permission de regarder et executer le code à des fins de visualisation, évaluation ou démonstration seulement. Toute modification, distribution ou utilisation commerciale est interdite sans notre autorisation explicite.
+
 
 
 
@@ -139,6 +154,13 @@ There are currently 5 powers:
 - Gravity inversion allowing a one-time gravity inversion.
 - Invincibility.
 
+
+### Controls <a name="ControlsEn"></a>
+| Control    | Action |
+| -------- | ------- |
+| ZQSD  | Movement    |
+| Right Click | Power     |
+| A    | Exit the doll    |
 
 
 ### Run the game with the solution <a name="RunEn"></a>
@@ -209,3 +231,8 @@ Axel Gathelier - [GitHub](https://github.com/GolfOcean334) - [LinkedIn](https://
 Instructor who provided the template:
 
 Adrien Bourgois - [GitHub](https://github.com/AdrienBourgois) - [LinkedIn](https://www.linkedin.com/in/adrienbourgois/)
+
+
+
+### License <a name="LicenseEn"></a>
+We are the owner of this project. You are permitted to view and execute this code for evaluation or demonstration purposes only. Any modification, distribution, or commercial use is prohibited without our explicit permission.
