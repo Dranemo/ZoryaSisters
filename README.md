@@ -1,6 +1,6 @@
 # Zorya Sisters  
 
-[Download Link](https://drive.google.com/file/d/1UZAFsd5iV5RQXKPHPr_y3qWgXYUT0Pb3/view?usp=sharing)
+[Download Link](https://github.com/Dranemo/Releases/releases/tag/ZoryaSisters)
 
 
 
